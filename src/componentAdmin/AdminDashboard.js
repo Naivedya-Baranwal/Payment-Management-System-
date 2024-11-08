@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../StyleAdmin/AdminDashboard.css';
-
+//this is admin dashboard
 function AdminDashboard() {
     return (
         <div className="admin-dashboard">
