@@ -1,0 +1,62 @@
+/* src/StyleAdmin/AdminDashboard.css */
+
+.admin-dashboard {
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #0071b3;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.admin-dashboard h1 {
+    margin-bottom: 20px;
+    color: #060606;
+    font-size: 24px;
+}
+
+.admin-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-dashboard li {
+    margin: 10px 0;
+    padding: 10px 0;
+    position: relative;
+}
+
+.admin-dashboard li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    border-bottom: 1px dashed #000000;
+    margin-top: 10px;
+}
+
+.admin-dashboard li:last-child::after {
+    display: none;
+}
+
+.admin-dashboard a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #e9f7ff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-dashboard a:hover {
+    background-color: #007bff;
+    color: rgb(195, 165, 165);
+}

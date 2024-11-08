@@ -1,0 +1,32 @@
+.list-accounts-admin-container {
+    padding: 20px;
+    background-color: #0071b3; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 80%; 
+    margin: 40px auto; 
+    color: #333; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+#LOA {
+    text-align: center;
+    margin-bottom: 20px; 
+    color: white;
+}

@@ -1,0 +1,54 @@
+/* src/StyleUser/AccountDeletion.css */
+
+.account-deletion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0071b3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+.account-deletion h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #080404;
+    font-size: 24px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: rgb(255, 255, 255);
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

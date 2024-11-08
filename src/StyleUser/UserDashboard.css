@@ -1,0 +1,112 @@
+/* src/StyleUser/UserDashboard.css */
+
+.user-dashboard {
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+    width: 65%;
+    max-width: 550px;
+    background-color: #0071b3;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    max-height: 57vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.user-dashboard h1 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    background-color: #0071b3;
+    z-index: 1;
+}
+
+.user-dashboard-content {
+    max-height: calc(57vh - 60px);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.user-dashboard-content::-webkit-scrollbar {
+    display: none;
+}
+
+.user-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-dashboard li {
+    margin: 10px 0;
+    position: relative;
+    padding: 10px 0;
+}
+
+.user-dashboard li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    border-bottom: 1px dashed #000000;
+    margin-top: 10px;
+}
+
+.user-dashboard li:last-child::after {
+    display: none;
+}
+
+.user-dashboard a {
+    text-decoration: none;
+    color: #000307;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #e9f7ff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-dashboard a:hover {
+    background-color: #007bff;
+    color: rgb(3, 1, 1);
+}
+
+.user-dashboard button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.user-dashboard button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.user-dashboard .logout-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-dashboard .logout-btn:hover {
+    background-color: #d42a2a;
+}
